@@ -17,7 +17,7 @@ import {
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/">
         <Navbar title='FIRDAUS PORTFOLIO'/>
           <Routes>
 
