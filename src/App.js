@@ -12,6 +12,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Review from './components/Review';
 
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
             </Route>
 
             <Route exact path="/services" element={<Services/>}>
+            </Route>
+
+            <Route exact path="/review" element={<Review/>}>
             </Route>
             
           </Routes>
