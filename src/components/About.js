@@ -10,7 +10,7 @@ export default function About() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="about-img">
-                                <img src="/assets/about.jpg" alt="Image"/>
+                                <img src="/assets/about.jpg" alt="img"/>
                             </div>
                         </div>
                         <div className="col-lg-6">

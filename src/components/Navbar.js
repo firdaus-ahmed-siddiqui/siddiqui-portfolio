@@ -28,3 +28,14 @@ export default function Navbar(props) {
     </>
   )
 }
+
+
+//Defining proptypes
+Navbar.propTypes = { 
+    title : PropTypes.string.isRequired,
+};
+
+//Defining default value of prop
+Navbar.defaultProps = {
+    title : 'Website name',
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/Home.css'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -12,18 +13,18 @@ export default function Home() {
                             <div className="hero-text">
                                 <p>I'm</p>
                                 <h1>Firdaus Siddiqui</h1>
-                                <h2></h2>
+                                <h2>ok</h2>
                                 <div className="typed-text">Software Engineer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
                             </div>
                             <div className="hero-btn">
-                                <a className="btn" href="">Hire Me</a>
-                                <a className="btn" href="">Contact Me</a>
+                                <Link className="btn" to="">Hire Me</Link>
+                                <Link className="btn" to="">Contact Me</Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6 d-none d-md-block">
                         <div className="hero-image">
-                            <img src="/assets/about.jpg" alt="Firdaus Image"/>
+                            <img src="/assets/about.jpg" alt="Firdaus img"/>
                         </div>
                     </div>
                 </div>
