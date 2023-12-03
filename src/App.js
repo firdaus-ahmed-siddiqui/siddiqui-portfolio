@@ -14,12 +14,10 @@ import {
 } from "react-router-dom";
 
 
-
-
 function App() {
   return (
     <>
-    <Router basename="/firdaus-ahmed-siddiqui">
+      <Router>
         <Navbar title='FIRDAUS PORTFOLIO'/>
           <Routes>
 

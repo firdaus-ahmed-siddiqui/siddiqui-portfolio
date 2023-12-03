@@ -15,7 +15,7 @@ export default function Blog() {
                     <div className="col-lg-6">
                         <div className="blog-item wow fadeInUp" data-wow-delay="0.1s">
                             <div className="blog-img">
-                                <img src="/assets/dooars.jpeg" alt="dooars image"/>
+                                <img src="/assets/dooars.jpeg" alt="dooars_img"/>
                             </div>
                             <div className="blog-text">
                                 <h2>Office trip to dooars</h2>
@@ -48,7 +48,7 @@ export default function Blog() {
                                 <p>
                                     Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
                                 </p>
-                                <a className="btn" href="">Read More <i className="fa fa-angle-right"></i></a>
+                                <Link className="btn" to="">Read More <i className="fa fa-angle-right"></i></Link>
                             </div>
                         </div>
                     </div>

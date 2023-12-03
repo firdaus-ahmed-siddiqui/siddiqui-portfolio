@@ -24,7 +24,7 @@ export default function Portfolio() {
                     <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
                         <div className="portfolio-wrap">
                             <div className="portfolio-img">
-                                <img src="img/portfolio-1.jpg" alt="Image"/>
+                                <img src="img/portfolio-1.jpg" alt="img"/>
                             </div>
                             <div className="portfolio-text">
                                 <h3>eCommerce Website</h3>
@@ -35,7 +35,7 @@ export default function Portfolio() {
                     <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
                         <div className="portfolio-wrap">
                             <div className="portfolio-img">
-                                <img src="img/portfolio-2.jpg" alt="Image"/>
+                                <img src="/assets/dooars.jpeg" alt="img"/>
                             </div>
                             <div className="portfolio-text">
                                 <h3>Product Landing Page</h3>
@@ -46,7 +46,7 @@ export default function Portfolio() {
                     <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div className="portfolio-wrap">
                             <div className="portfolio-img">
-                                <img src="img/portfolio-3.jpg" alt="Image"/>
+                                <img src="/assets/dooars.jpeg" alt="img"/>
                             </div>
                             <div className="portfolio-text">
                                 <h3>JavaScript quiz game</h3>
@@ -57,18 +57,18 @@ export default function Portfolio() {
                     <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
                         <div className="portfolio-wrap">
                             <div className="portfolio-img">
-                                <img src="img/portfolio-4.jpg" alt="Image"/>
+                                <img src="/assets/dooars.jpeg" alt="img"/>
                             </div>
                             <div className="portfolio-text">
                                 <h3>JavaScript drawing</h3>
-                                <a className="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
+                                <a className="btn" href="/assets/dooars.jpeg" data-lightbox="portfolio">+</a>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
                         <div className="portfolio-wrap">
                             <div className="portfolio-img">
-                                <img src="img/portfolio-5.jpg" alt="Image"/>
+                                <img src="/assets/dooars.jpeg" alt="img"/>
                             </div>
                             <div className="portfolio-text">
                                 <h3>Social Mobile Apps</h3>
@@ -79,11 +79,11 @@ export default function Portfolio() {
                     <div className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
                         <div className="portfolio-wrap">
                             <div className="portfolio-img">
-                                <img src="img/portfolio-6.jpg" alt="Image"/>
+                                <img src="/assets/dooars.jpeg" alt="img"/>
                             </div>
                             <div className="portfolio-text">
                                 <h3>Company Website</h3>
-                                <a className="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
+                                <a className="btn" href="/assets/dooars.jpeg" data-lightbox="portfolio">+</a>
                             </div>
                         </div>
                     </div>
