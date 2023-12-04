@@ -46,8 +46,9 @@ export default function Experience() {
                                 <div className="timeline-date">6/2021 - 10/2021</div>
                                 <h2>Web Developer</h2>
                                 <h4>Kolkata, West Bengal, India</h4>
+                                <h4><Link target='_blank' to='/'>Techtree Technologies</Link></h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                                With a rich background in web development, I've contributed to the creation of seamless food delivery websites using HTML, CSS, JavaScript, and React . I specialize in creating visually appealing interfaces that engage users from click to delivery.
                                 </p>
                                 <br/>
                                 <h4>Responsibilities</h4>
@@ -64,9 +65,10 @@ export default function Experience() {
                         </div>
                         <div className="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                             <div className="timeline-text">
-                                <div className="timeline-date">2045 - 2050</div>
-                                <h2>Web Developer</h2>
-                                <h4>Soft Agency, San Francisco, CA</h4>
+                                <div className="timeline-date">3/2021 - 5/2021</div>
+                                <h2>Web Developer Intern</h2>
+                                <h4>Kolkata, West Bengal, India</h4>
+                                <h4><Link target='_blank' to='/'>Shokpix</Link></h4>
                                 <p>
                                     Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
                                 </p>

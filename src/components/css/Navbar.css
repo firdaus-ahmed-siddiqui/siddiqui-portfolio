@@ -74,7 +74,8 @@
 
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
-        color: #111111;
+        /*color: #111111;*/
+        color: #EF233C;
     }
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,

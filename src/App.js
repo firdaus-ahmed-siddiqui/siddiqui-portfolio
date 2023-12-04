@@ -22,8 +22,9 @@ function App() {
         <Navbar title='FIRDAUS PORTFOLIO'/>
           <Routes>
 
-            <Route exact path="/" element={<Home/>}>
+            <Route exact path="/" element={<><Home/><About/><Experience/><Services/><Blog/></>}>
             </Route>
+
 
             <Route exact path="/about" element={<About/>}>
             </Route>

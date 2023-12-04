@@ -13,7 +13,7 @@ export default function Home() {
                             <div className="hero-text">
                                 <p>I'm</p>
                                 <h1>Firdaus Siddiqui</h1>
-                                <h2>ok</h2>
+                                <h2>Software Engineer</h2>
                                 <div className="typed-text">Software Engineer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
                             </div>
                             <div className="hero-btn">

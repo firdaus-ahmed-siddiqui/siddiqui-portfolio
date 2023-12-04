@@ -12,7 +12,7 @@ export default function Footer() {
                         <h2>Firdaus Siddiqui</h2>
                         <h3>Kolkata, West Bengal, India</h3>
                         <div className="footer-menu">
-                            <p>+91 7003886834</p>
+                            <p>+917003886834</p>
                             <p>firdausahmed47@gmail.com</p>
                         </div>
                         <div className="footer-social">
