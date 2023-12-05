@@ -17,8 +17,8 @@ export default function Home() {
                                 <div className="typed-text">Software Engineer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
                             </div>
                             <div className="hero-btn">
-                                <Link className="btn" to="">Hire Me</Link>
-                                <Link className="btn" to="">Contact Me</Link>
+                                <Link className="btn" to="/contact">Hire Me</Link>
+                                <Link className="btn fa fa-download" to="/assets/Firdaus_Resume.pdf" target="_blank"> Download CV</Link>
                             </div>
                         </div>
                     </div>
