@@ -5,11 +5,26 @@
 .about {
     position: relative;
     width: 100%;
-    /*margin: 0 0 -4.5rem 0;*/
+    margin: 6rem 0rem;
 }
 
 .about .col-lg-6 {
     padding: 0;
+}
+
+.about .row{
+    box-shadow: 2px 2px 2px 2px #e3e0e0;
+    padding: 2rem 2rem !important;
+    color: #000000;
+    font-size: 1.4rem;
+}
+
+.about-content .skills .skill-name .about-text{
+    font-weight: 600 !important;
+}
+
+.about-content .skills .skill-name .about-value{
+    font-weight: 400;
 }
 
 .about .section-header {
@@ -74,7 +89,9 @@
 
 @media (max-width: 991.98px) {
     .about .about-content {
-        padding: 45px 15px 0 15px;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+    }
+    .about .row {
+        margin: 6rem 1rem;
     }
 }
-

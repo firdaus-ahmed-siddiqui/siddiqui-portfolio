@@ -1,86 +1,62 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './css/About.css'
 
 export default function About() {
   return (
     <>
-        <div className="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+      <div className="about wow fadeInUp" data-wow-delay="0.1s" id="about">
                 <div className="container-fluid">
-                    <div className="row align-items-center">
+                    <div className="row">
                         <div className="col-lg-6">
-                            <div className="about-img">
-                                <img src="/assets/about.jpg" alt="img"/>
+                            <div className="about-haeder">
+                                <div className="section-header text-left">
+                                    <p>About</p>
+                                    <div className="about-text">
+                                    </div>
+                                    <ul>
+                                        <li>Software Developer with 2 years of experience</li>
+                                        <li>Worked with Software Development Life Cycle(SDLC) and agile methodologies</li>
+                                        <li>Expertise in Salesforce , Apex Programming, CL Portal(a Q2 Product), Java, React, Javascript, HTML, CSS and UI with Responsive Designs</li>
+                                        <li>Have intermediate understanding of Python and MYSQL</li>
+                                        <li>Have good understanding of Problem Solving, DBMS, Operating Systyem</li>
+                                        <li>Experience with Git, GitHub and JIRA</li>
+                                    </ul>
+                                    <br></br>
+                                    <span>
+                                    A dynamic and adaptable software professional with proficiency in quickly mastering new technologies. I thrive in team settings, consistently contributing and offering essential support. I am also distinguished by my articulate communication skills, ensuring clarity and precision in conveying complex ideas.
+                                    </span>
+                                </div>
+                                
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="about-content">
-                                <div className="section-header text-left">
-                                    <p>Learn About Me</p>
-                                    <h2>2 Years Experience</h2>
-                                </div>
-                                <div className="about-text">
-                                    <p>
-                                    B.Tech Graduate|Salesforce certified|2 years of experience in Software Development|Sound understanding of XML, CSS3, JSON, Database, and SQL queries|Capable of Performance Testing, Documentation, and Deployment on live site
-                                    </p>
-                                </div>
+                            <div className="section-header text-left">
+                                <p>Basic Information</p>
+                            </div>
+                            <div className="about-content"> 
                                 <div className="skills">
                                     <div className="skill-name">
-                                        <p>Salesforce Development</p><p>85%</p>
-                                    </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width:'85%'}}></div>
+                                        <p className="about-text">DATE OF BIRTH:</p>
+                                        <p className="about-value">February 12, 2000</p>
                                     </div>
                                     <div className="skill-name">
-                                        <p>Web Development</p><p>80%</p>
-                                    </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width:'80%'}}></div>
+                                        <p className="about-text">EMAIL:</p>
+                                        <p className="about-value">firdausahmed47@gmail.com</p>
                                     </div>
                                     <div className="skill-name">
-                                        <p>JavaScript</p><p>80%</p>
-                                    </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width:'80%'}}></div>
+                                        <p className="about-text">PHONE:</p>
+                                        <p className="about-value">+91 7003886834</p>
                                     </div>
                                     <div className="skill-name">
-                                        <p>React JS</p><p>70%</p>
-                                    </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width:'80%'}}></div>
+                                        <p className="about-text">ADDRESS:</p>
+                                        <p className="about-value">Kolkata, India</p>
                                     </div>
                                     <div className="skill-name">
-                                        <p>HTML</p><p>90%</p>
-                                    </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width:'90%'}}></div>
-                                    </div>
-                                    <div className="skill-name">
-                                        <p>CSS/SCSS</p><p>90%</p>
-                                    </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width:'90%'}}></div>
-                                    </div>
-                                    <div className="skill-name">
-                                        <p>Java</p><p>80%</p>
-                                    </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width:'80%'}}></div>
-                                    </div>
-                                    <div className="skill-name">
-                                        <p>Lightning Web Components (LWC)</p><p>65%</p>
-                                    </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style={{width:'65%'}}></div>
-                                    </div>
-                                    <div className="skill-name">
-                                        <p>Data Migration</p><p>75%</p>
-                                    </div>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{width:'75%'}}></div>
+                                        <p className="about-text">LANGUAGE:</p>
+                                        <p className="about-value">English, Hindi, Urdu, Bengali</p>
                                     </div>
                                 </div>
-                                <Link className="btn" to="">Learn More</Link>
+                               
                             </div>
                         </div>
                     </div>
@@ -89,3 +65,5 @@ export default function About() {
     </>
   )
 }
+
+

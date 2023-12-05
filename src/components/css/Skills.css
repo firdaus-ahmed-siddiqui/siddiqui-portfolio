@@ -1,0 +1,80 @@
+/*******************************/
+/********** my-skills CSS **********/
+/*******************************/
+
+.my-skills {
+    position: relative;
+    width: 100%;
+    /*margin: 0 0 -4.5rem 0;*/
+}
+
+.my-skills .col-lg-6 {
+    padding: 0;
+}
+
+.my-skills .section-header {
+    margin-bottom: 30px;
+}
+
+.my-skills .my-skills-img {
+    position: relative;
+    height: 100%;
+}
+
+.my-skills .my-skills-img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.my-skills .my-skills-content {
+    padding: 0rem 6rem 0rem;
+}
+
+.my-skills .my-skills-text p {
+    font-size: 16px;
+}
+
+.my-skills .skills {
+    margin-bottom: 30px;
+}
+
+.my-skills .skill-name {
+    margin-top: 15px;
+}
+
+.my-skills .skill-name p {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.my-skills .skill-name p:last-child {
+    float: right;
+}
+
+.my-skills .progress {
+    height: 10px;
+    border-radius: 10px;
+    background: #dddddd;
+}
+
+.my-skills .progress .progress-bar {
+    width: 0px;
+    background: #EF233C;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.my-skills .my-skills-text a.btn {
+    margin-top: 15px;
+}
+
+@media (max-width: 991.98px) {
+    .my-skills .my-skills-content {
+        padding: 45px 15px 0 15px;
+    }
+}
+

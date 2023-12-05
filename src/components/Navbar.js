@@ -19,11 +19,13 @@ export default function Navbar(props) {
                     <div className="navbar-nav ml-auto">
                         <Link to="/" className="nav-item nav-link active">Home</Link>
                         <Link to="/about" className="nav-item nav-link">About</Link>
-                        <Link to="/services" className="nav-item nav-link">Service</Link>
                         <Link to="/experience" className="nav-item nav-link">Experience</Link>
+                        <Link to="/education" className="nav-item nav-link">Education</Link>
+                        <Link to="/services" className="nav-item nav-link">Service</Link>
                         <Link to="/portfolio" className="nav-item nav-link">Portfolio</Link>
                         <Link to="/blog" class="nav-item nav-link">Blog</Link>
                         <Link to="/review" class="nav-item nav-link">Review</Link>
+                        <Link to="/contact" class="nav-item nav-link">Contact</Link>
                     </div>
                 </div>
             </div>
